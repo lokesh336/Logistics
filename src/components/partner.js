@@ -1,5 +1,5 @@
 import "../styles/price.css";
-import partner from "../images/partner.jpg";
+// import partner from "../images/partner.jpg";
 
 function Partner() {
   return (
@@ -14,13 +14,13 @@ function Partner() {
         </div>
       </div>
       <div className="partnerbox1">
-        <marquee direction="left" speed={100} delay={5}>
+        {/* <marquee direction="left" speed={100} delay={5}>
           <img src={partner} alt=";ogo"></img>
           <img src={partner} alt=";ogo"></img>
           <img src={partner} alt=";ogo"></img>
           <img src={partner} alt=";ogo"></img>
           <img src={partner} alt=";ogo"></img>
-        </marquee>
+        </marquee> */}
       </div>
     </div>
   );
