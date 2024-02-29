@@ -14,7 +14,7 @@ function Partner() {
         </div>
       </div>
       <div className="partnerbox1">
-        <marquee direction="left">
+        <marquee direction="left" speed={100} delay={5}>
           <img src={partner} alt=";ogo"></img>
           <img src={partner} alt=";ogo"></img>
           <img src={partner} alt=";ogo"></img>
